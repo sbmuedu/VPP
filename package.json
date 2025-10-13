@@ -1,0 +1,17 @@
+{
+  "name": "zai_vpp",
+  "version": "1.0.0",
+  "description": "A comprehensive virtual patient training platform.",
+  "main": "index.js",
+  "private": true,
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "workspaces": [
+  "apps/*",
+  "libs/*"
+  ],
+  "keywords": [],
+  "author": "reza",
+  "license": "ISC"
+}
