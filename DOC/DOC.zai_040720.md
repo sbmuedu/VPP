@@ -392,6 +392,23 @@ The code for the API implementation is the same as before, but the file paths ar
     cd ../..
     ```
 
+after running 'npx prisma init' output is:
+```Text
+     Your Prisma schema was created at prisma/schema.prisma
+  You can now open it in your favorite editor.
+
+warn You already have a .gitignore file. Don't forget to add `.env` in it to not commit any private information.
+
+Next steps:
+1. Run prisma dev to start a local Prisma Postgres server.
+2. Define models in the schema.prisma file.
+3. Run prisma migrate dev to migrate your local Prisma Postgres database.
+4. Tip: Explore how you can extend the ORM with scalable connection pooling, global caching, and a managed serverless Postgres database. Read: https://pris.ly/cli/beyond-orm
+
+More information in our documentation:
+https://pris.ly/d/getting-started
+```
+
 2.  **Configure Environment Variables:**
     Open `apps/api/.env` and add your credentials.
 
@@ -457,6 +474,26 @@ Create the following files and folders inside `apps/api/src/`. You can use the N
 *   `src/auth/guards/jwt-auth.guard.ts`
 *   `src/auth/guards/roles.guard.ts`
 *   `src/auth/roles.decorator.ts`
+cd app/api/src
+mkdir auth
+mkdir app
+mkdir auth/dto
+mkdir auth/strategies
+mkdir auth/guards
+
+cd ..
+
+touch src/app/prisma.service.ts
+touch src/auth/auth.module.ts
+touch src/auth/auth.service.ts
+touch src/auth/auth.controller.ts
+touch src/auth/dto/register.dto.ts
+touch src/auth/strategies/local.strategy.ts
+touch src/auth/strategies/jwt.strategy.ts
+touch src/auth/guards/jwt-auth.guard.ts
+touch src/auth/guards/roles.guard.ts
+touch src/auth/roles.decorator.ts
+
 
 *(Copy the code for each of these files from the very first guide. The file contents are identical, only their location within `apps/api/` has changed).*
 
