@@ -1,6 +1,6 @@
-
 # Project Proposal
-Of course. Here is a professional Request for Proposal (RFP) document based on your project plan. This version is structured to be sent to external agencies or teams for design, programming, and implementation. It focuses on the *what* and *why*, while allowing the vendor to propose the best *how*.
+
+Of course. Here is a professional Request for Proposal (RFP) document based on your project plan. This version is structured to be sent to external agencies or teams for design, programming, and implementation. It focuses on the _what_ and _why_, while allowing the vendor to propose the best _how_.
 
 ---
 
@@ -22,87 +22,99 @@ We are seeking a qualified and experienced partner to design, develop, and imple
 Our vision is to create the most realistic and educationally effective virtual patient training platform on the market, transforming medical education through technology.
 
 **Primary Goals:**
-*   Provide a risk-free environment for students to develop and practice clinical skills.
-*   Improve diagnostic accuracy, procedural skills, and patient communication through realistic simulation.
-*   Enable educators to monitor student progress in real-time and provide targeted feedback.
-*   Create a scalable solution that can be adopted by medical institutions globally.
+
+- Provide a risk-free environment for students to develop and practice clinical skills.
+- Improve diagnostic accuracy, procedural skills, and patient communication through realistic simulation.
+- Enable educators to monitor student progress in real-time and provide targeted feedback.
+- Create a scalable solution that can be adopted by medical institutions globally.
 
 #### **3. Target Audience**
 
-*   **Primary Users:** Medical students, nursing students, and other healthcare trainees.
-*   **Secondary Users:** Clinical supervisors, professors, and administrators who will monitor progress, manage scenarios, and assess competency.
+- **Primary Users:** Medical students, nursing students, and other healthcare trainees.
+- **Secondary Users:** Clinical supervisors, professors, and administrators who will monitor progress, manage scenarios, and assess competency.
 
 #### **4. Core Functional Requirements**
 
 The platform must include the following core modules and features:
 
 **4.1. User Management System**
-*   Support for multiple user roles (Student, Supervisor, Admin) with granular, role-based permissions.
-*   Secure user registration, login, and profile management.
-*   Capability for institutional authentication integration (e.g., SSO, SAML).
+
+- Support for multiple user roles (Student, Supervisor, Admin) with granular, role-based permissions.
+- Secure user registration, login, and profile management.
+- Capability for institutional authentication integration (e.g., SSO, SAML).
 
 **4.2. Medical Scenario Engine**
-*   A dynamic system for creating and running clinical scenarios.
-*   Realistic patient physiology modeling with dynamic vital signs that respond to student actions.
-*   Support for branching narratives, where patient conditions evolve based on student decisions.
-*   Ability to introduce complications and time-accelerated simulations.
+
+- A dynamic system for creating and running clinical scenarios.
+- Realistic patient physiology modeling with dynamic vital signs that respond to student actions.
+- Support for branching narratives, where patient conditions evolve based on student decisions.
+- Ability to introduce complications and time-accelerated simulations.
 
 **4.3. AI-Powered Patient Interactions**
-*   Enable natural language conversations between students and virtual patients.
-*   The AI should generate context-aware responses that reflect the patient's medical condition, personality, and emotional state.
-*   The system must be designed to ensure medical appropriateness and safety in all AI-generated dialogue.
+
+- Enable natural language conversations between students and virtual patients.
+- The AI should generate context-aware responses that reflect the patient's medical condition, personality, and emotional state.
+- The system must be designed to ensure medical appropriateness and safety in all AI-generated dialogue.
 
 **4.4. Comprehensive Assessment System**
-*   Real-time scoring and competency evaluation across multiple dimensions:
-    *   Diagnostic Accuracy
-    *   Procedural Skills
-    *   Communication
-    *   Professionalism
-    *   Critical Thinking
-*   Provide formative (real-time feedback) and summative (end-of-scenario score) assessment modes.
-*   Generate detailed performance reports with actionable feedback for students.
+
+- Real-time scoring and competency evaluation across multiple dimensions:
+  - Diagnostic Accuracy
+  - Procedural Skills
+  - Communication
+  - Professionalism
+  - Critical Thinking
+- Provide formative (real-time feedback) and summative (end-of-scenario score) assessment modes.
+- Generate detailed performance reports with actionable feedback for students.
 
 **4.5. Real-time Collaboration & Supervision**
-*   A supervisor dashboard to monitor multiple student sessions in real-time.
-*   Allow supervisors to intervene during a session to provide hints, introduce complications, or correct actions.
-*   Support for multi-user scenarios to facilitate team-based training.
+
+- A supervisor dashboard to monitor multiple student sessions in real-time.
+- Allow supervisors to intervene during a session to provide hints, introduce complications, or correct actions.
+- Support for multi-user scenarios to facilitate team-based training.
 
 **4.6. Medical Knowledge Base**
-*   An integrated, searchable database of medical information including:
-    *   Drug information (dosage, interactions, contraindications).
-    *   Medical procedures with step-by-step guides.
-    *   Laboratory and imaging test results with interpretation guides.
+
+- An integrated, searchable database of medical information including:
+  - Drug information (dosage, interactions, contraindications).
+  - Medical procedures with step-by-step guides.
+  - Laboratory and imaging test results with interpretation guides.
 
 **4.7. 3D Visualization**
-*   A 3D visualization of the patient to enhance immersion and support procedural training.
-*   The visualization should be interactive and reflect the patient's current state (e.g., breathing, distress).
+
+- A 3D visualization of the patient to enhance immersion and support procedural training.
+- The visualization should be interactive and reflect the patient's current state (e.g., breathing, distress).
 
 #### **5. Technical Considerations & Preferences**
 
 We are looking for a modern, scalable, and secure technology stack. While we are open to your expert recommendations, our initial research suggests the following areas of focus:
 
-*   **Frontend:** A modern framework capable of supporting complex UI and 3D graphics (e.g., React/Next.js, Vue).
-*   **Backend:** An enterprise-ready, scalable framework (e.g., Node.js/NestJS, Python/Django, Java/Spring).
-*   **Database:** A robust relational database (e.g., PostgreSQL).
-*   **AI/LLM:** We have a strong preference for a **locally-deployable Large Language Model (LLM)** (e.g., using Ollama with Mistral/Llama 3) to ensure data privacy, security, and long-term cost-effectiveness. Please detail your experience with LLM integration and fine-tuning.
-*   **Real-time Communication:** Implementation of WebSockets for live collaboration features.
-*   **Security:** The platform must be built with security as a primary concern, including secure authentication (JWT), data encryption, and protection against common web vulnerabilities.
+- **Frontend:** A modern framework capable of supporting complex UI and 3D graphics (e.g., React/Next.js, Vue).
+- **Backend:** An enterprise-ready, scalable framework (e.g., Node.js/NestJS, Python/Django, Java/Spring).
+- **Database:** A robust relational database (e.g., PostgreSQL).
+- **AI/LLM:** We have a strong preference for a **locally-deployable Large Language Model (LLM)** (e.g., using Ollama with Mistral/Llama 3) to ensure data privacy, security, and long-term cost-effectiveness. Please detail your experience with LLM integration and fine-tuning.
+- **Real-time Communication:** Implementation of WebSockets for live collaboration features.
+- **Security:** The platform must be built with security as a primary concern, including secure authentication (JWT), data encryption, and protection against common web vulnerabilities.
 
 #### **6. Phased Development Approach**
 
 We envision the project being executed in distinct phases. Please provide a cost and timeline estimate for each phase.
 
 **Phase 1: Foundation (Months 1-3)**
-*   **Deliverables:** User authentication & management, basic scenario engine framework, core LLM integration for simple patient conversations, and a preliminary scoring system.
+
+- **Deliverables:** User authentication & management, basic scenario engine framework, core LLM integration for simple patient conversations, and a preliminary scoring system.
 
 **Phase 2: Core Simulation (Months 4-6)**
-*   **Deliverables:** Advanced physiology modeling, comprehensive medical knowledge base, real-time WebSocket communication for supervisor monitoring, and basic 3D patient visualization.
+
+- **Deliverables:** Advanced physiology modeling, comprehensive medical knowledge base, real-time WebSocket communication for supervisor monitoring, and basic 3D patient visualization.
 
 **Phase 3: Enhanced Realism & Features (Months 7-9)**
-*   **Deliverables:** Advanced AI conversation system with emotional intelligence, complex multi-system scenarios, comprehensive assessment engine with detailed analytics, and mobile-responsive design.
+
+- **Deliverables:** Advanced AI conversation system with emotional intelligence, complex multi-system scenarios, comprehensive assessment engine with detailed analytics, and mobile-responsive design.
 
 **Phase 4: Production & Polish (Months 10-12)**
-*   **Deliverables:** Performance optimization, advanced analytics dashboard, a content management system for scenarios, comprehensive testing & QA, and final deployment with documentation.
+
+- **Deliverables:** Performance optimization, advanced analytics dashboard, a content management system for scenarios, comprehensive testing & QA, and final deployment with documentation.
 
 #### **7. What We Require From You (The Vendor)**
 
@@ -119,8 +131,8 @@ Please submit a comprehensive proposal that includes the following:
 
 #### **8. Submission Guidelines**
 
-*   **Proposal Deadline:** All proposals must be received by [Date] via email to [Your Email].
-*   **Questions:** All questions regarding this RFP must be submitted in writing by [Date, e.g., 1 week before deadline]. We will provide a consolidated FAQ to all respondents.
+- **Proposal Deadline:** All proposals must be received by [Date] via email to [Your Email].
+- **Questions:** All questions regarding this RFP must be submitted in writing by [Date, e.g., 1 week before deadline]. We will provide a consolidated FAQ to all respondents.
 
 We look forward to receiving your proposal and exploring a partnership to build a groundbreaking platform for medical education.
 
@@ -129,7 +141,6 @@ Sincerely,
 [Your Name/Company Name]
 
 # Project Steps
-
 
 Of course. Based on the proposal, here is a practical, step-by-step programming plan. The work is divided into logical, manageable projects that can be developed in sequence, with some potential for parallel work.
 
@@ -143,104 +154,104 @@ Here are the eight core projects that, when combined, will form the complete Vir
 
 ### **Project 1: Core API & User Service**
 
-*   **Purpose:** To serve as the foundational backend for the entire platform. It will handle all user-related operations, authentication, and provide the central API gateway.
-*   **Core Technologies:** Nest.js, TypeScript, PostgreSQL, Prisma, JWT, Passport.js.
-*   **Key Responsibilities:**
-    *   Design and implement the complete database schema (users, sessions, institutions, etc.).
-    *   Build secure authentication endpoints (register, login, logout).
-    *   Implement role-based access control (RBAC) using guards and decorators.
-    *   Create a basic user profile management system.
-    *   Set up the foundational API structure and documentation (e.g., using Swagger).
-*   **Dependencies:** None. This is the first project to be built.
+- **Purpose:** To serve as the foundational backend for the entire platform. It will handle all user-related operations, authentication, and provide the central API gateway.
+- **Core Technologies:** Nest.js, TypeScript, PostgreSQL, Prisma, JWT, Passport.js.
+- **Key Responsibilities:**
+  - Design and implement the complete database schema (users, sessions, institutions, etc.).
+  - Build secure authentication endpoints (register, login, logout).
+  - Implement role-based access control (RBAC) using guards and decorators.
+  - Create a basic user profile management system.
+  - Set up the foundational API structure and documentation (e.g., using Swagger).
+- **Dependencies:** None. This is the first project to be built.
 
 ---
 
 ### **Project 2: Medical Knowledge Base Service**
 
-*   **Purpose:** To create a centralized, authoritative database of all medical information that the scenarios can reference.
-*   **Core Technologies:** Nest.js (as a module within the Core API), TypeScript, PostgreSQL, Prisma.
-*   **Key Responsibilities:**
-    *   Design database models for Drugs (name, dosage, interactions, contraindications).
-    *   Design models for Procedures (steps, required equipment, risks).
-    *   Design models for Lab Tests (normal ranges, interpretation, what conditions they affect).
-    *   Build a robust set of CRUD (Create, Read, Update, Delete) endpoints for this data, protected by RBAC.
-    *   Seed the database with an initial set of common drugs, tests, and procedures.
-*   **Dependencies:** Project 1 (Core API & User Service) for the database and API structure.
+- **Purpose:** To create a centralized, authoritative database of all medical information that the scenarios can reference.
+- **Core Technologies:** Nest.js (as a module within the Core API), TypeScript, PostgreSQL, Prisma.
+- **Key Responsibilities:**
+  - Design database models for Drugs (name, dosage, interactions, contraindications).
+  - Design models for Procedures (steps, required equipment, risks).
+  - Design models for Lab Tests (normal ranges, interpretation, what conditions they affect).
+  - Build a robust set of CRUD (Create, Read, Update, Delete) endpoints for this data, protected by RBAC.
+  - Seed the database with an initial set of common drugs, tests, and procedures.
+- **Dependencies:** Project 1 (Core API & User Service) for the database and API structure.
 
 ---
 
 ### **Project 3: Clinical Scenario Engine**
 
-*   **Purpose:** This is the "brain" of the simulation. It manages the state of a patient scenario, processes user actions, and updates the patient's condition in real-time.
-*   **Core Technologies:** Nest.js, TypeScript, Node.js Timers/Schedulers, State Machines (e.g., XState).
-*   **Key Responsibilities:**
-    *   Create a `Scenario` model to store scenario data (patient history, initial vitals, triggers).
-    *   Develop a `Session` model to track the live state of a running simulation for a specific user.
-    *   Build the core simulation loop: receive an action (e.g., "order drug X"), calculate the consequence (using data from Project 2), and update the patient's state (vitals, symptoms).
-    *   Implement logic for time progression and complication triggers.
-*   **Dependencies:** Project 1 (Core API), Project 2 (Medical Knowledge Base).
+- **Purpose:** This is the "brain" of the simulation. It manages the state of a patient scenario, processes user actions, and updates the patient's condition in real-time.
+- **Core Technologies:** Nest.js, TypeScript, Node.js Timers/Schedulers, State Machines (e.g., XState).
+- **Key Responsibilities:**
+  - Create a `Scenario` model to store scenario data (patient history, initial vitals, triggers).
+  - Develop a `Session` model to track the live state of a running simulation for a specific user.
+  - Build the core simulation loop: receive an action (e.g., "order drug X"), calculate the consequence (using data from Project 2), and update the patient's state (vitals, symptoms).
+  - Implement logic for time progression and complication triggers.
+- **Dependencies:** Project 1 (Core API), Project 2 (Medical Knowledge Base).
 
 ---
 
 ### **Project 4: AI Patient Interaction Service**
 
-*   **Purpose:** To manage the natural language conversations with the virtual patient, providing context-aware and emotionally appropriate responses.
-*   **Core Technologies:** Nest.js, TypeScript, Ollama SDK, HTTP clients.
-*   **Key Responsibilities:**
-    *   Set up and configure a connection to a local Ollama instance.
-    *   Design a sophisticated prompt engineering system. The prompt must include the patient's current state, history, personality, and the student's last message.
-    *   Create an endpoint that takes a student's message, sends it to the LLM, and returns the patient's response.
-    *   Implement safety and validation layers to prevent the LLM from providing medically incorrect or inappropriate information.
-*   **Dependencies:** Project 3 (Scenario Engine, to provide context for the AI).
+- **Purpose:** To manage the natural language conversations with the virtual patient, providing context-aware and emotionally appropriate responses.
+- **Core Technologies:** Nest.js, TypeScript, Ollama SDK, HTTP clients.
+- **Key Responsibilities:**
+  - Set up and configure a connection to a local Ollama instance.
+  - Design a sophisticated prompt engineering system. The prompt must include the patient's current state, history, personality, and the student's last message.
+  - Create an endpoint that takes a student's message, sends it to the LLM, and returns the patient's response.
+  - Implement safety and validation layers to prevent the LLM from providing medically incorrect or inappropriate information.
+- **Dependencies:** Project 3 (Scenario Engine, to provide context for the AI).
 
 ---
 
 ### **Project 5: Assessment & Analytics Service**
 
-*   **Purpose:** To evaluate student performance in real-time and provide detailed feedback after a scenario is complete.
-*   **Core Technologies:** Nest.js, TypeScript, PostgreSQL.
-*   **Key Responsibilities:**
-    *   Define the scoring algorithms for each competency dimension (diagnostic accuracy, communication, etc.).
-    *   Create event listeners within the Scenario Engine to log key actions (e.g., `correct_test_ordered`, `unprofessional_question_asked`).
-    *   Build a service that processes these logs and calculates a real-time score.
-    *   Develop a system to generate a final, detailed performance report with strengths, weaknesses, and suggestions for improvement.
-*   **Dependencies:** Project 3 (Scenario Engine, for event data).
+- **Purpose:** To evaluate student performance in real-time and provide detailed feedback after a scenario is complete.
+- **Core Technologies:** Nest.js, TypeScript, PostgreSQL.
+- **Key Responsibilities:**
+  - Define the scoring algorithms for each competency dimension (diagnostic accuracy, communication, etc.).
+  - Create event listeners within the Scenario Engine to log key actions (e.g., `correct_test_ordered`, `unprofessional_question_asked`).
+  - Build a service that processes these logs and calculates a real-time score.
+  - Develop a system to generate a final, detailed performance report with strengths, weaknesses, and suggestions for improvement.
+- **Dependencies:** Project 3 (Scenario Engine, for event data).
 
 ---
 
 ### **Project 6: Real-time Collaboration Service**
 
-*   **Purpose:** To enable live monitoring and intervention by supervisors.
-*   **Core Technologies:** Nest.js, Socket.io, JWT.
-*   **Dependencies:** Project 1 (for authentication), Project 3 (to receive and broadcast simulation state).
+- **Purpose:** To enable live monitoring and intervention by supervisors.
+- **Core Technologies:** Nest.js, Socket.io, JWT.
+- **Dependencies:** Project 1 (for authentication), Project 3 (to receive and broadcast simulation state).
 
 ---
 
 ### **Project 7: Web Client Application (Frontend)**
 
-*   **Purpose:** The main user interface for students and supervisors to interact with the platform.
-*   **Core Technologies:** Next.js 14, TypeScript, Tailwind CSS, Zustand/Redux (for state management), Socket.io-client.
-*   **Key Responsibilities:**
-    *   Build the authentication pages (login, register).
-    *   Create the main student dashboard to view and launch scenarios.
-    *   Develop the core simulation interface: a chat window for patient interaction, panels for vitals, and areas to order tests/drugs.
-    *   Implement the supervisor dashboard for monitoring sessions.
-    *   Build the assessment results page to display reports and analytics.
-    *   Ensure the application is fully responsive.
-*   **Dependencies:** All backend projects (1-6) as it consumes their APIs.
+- **Purpose:** The main user interface for students and supervisors to interact with the platform.
+- **Core Technologies:** Next.js 14, TypeScript, Tailwind CSS, Zustand/Redux (for state management), Socket.io-client.
+- **Key Responsibilities:**
+  - Build the authentication pages (login, register).
+  - Create the main student dashboard to view and launch scenarios.
+  - Develop the core simulation interface: a chat window for patient interaction, panels for vitals, and areas to order tests/drugs.
+  - Implement the supervisor dashboard for monitoring sessions.
+  - Build the assessment results page to display reports and analytics.
+  - Ensure the application is fully responsive.
+- **Dependencies:** All backend projects (1-6) as it consumes their APIs.
 
 ---
 
 ### **Project 8: 3D Patient Visualization Module**
 
-*   **Purpose:** To provide an immersive, visual representation of the patient that reflects their current physiological state.
-*   **Core Technologies:** React Three Fiber (R3F), Three.js, Next.js, TypeScript.
-*   **Key Responsibilities:**
-    *   Integrate R3F into the Next.js application.
-    *   Source or create a base 3D human model.
-    *   Use React state to drive the 3D model's animations (e.g., breathing rate, skin color, facial expressions) based on real-time data from the Scenario Engine.
-    *   Develop simple interactions, like clicking on a body part to examine it.
-*   **Dependencies:** Project 7 (Web Client Application, for integration) and Project 3 (Scenario Engine, for state data).
+- **Purpose:** To provide an immersive, visual representation of the patient that reflects their current physiological state.
+- **Core Technologies:** React Three Fiber (R3F), Three.js, Next.js, TypeScript.
+- **Key Responsibilities:**
+  - Integrate R3F into the Next.js application.
+  - Source or create a base 3D human model.
+  - Use React state to drive the 3D model's animations (e.g., breathing rate, skin color, facial expressions) based on real-time data from the Scenario Engine.
+  - Develop simple interactions, like clicking on a body part to examine it.
+- **Dependencies:** Project 7 (Web Client Application, for integration) and Project 3 (Scenario Engine, for state data).
 
 ---
 
@@ -249,26 +260,29 @@ Here are the eight core projects that, when combined, will form the complete Vir
 Here is the recommended order to tackle these projects, aligning with the original proposal's phases.
 
 **Step 1: Build the Foundation (Month 1)**
+
 1.  **Start Project 1: Core API & User Service.** Get the database, authentication, and basic API running.
 2.  **Start Project 7: Web Client Application.** Build the shell: login, registration, and a basic dashboard that can communicate with the Core API.
 3.  **Start Project 2: Medical Knowledge Base Service.** Begin building the data models and API endpoints for drugs and tests.
 
 **Step 2: Create the Core Simulation (Months 2-3)**
+
 1.  **Start Project 3: Clinical Scenario Engine.** This is the main focus. Build the logic to run a simple text-based scenario.
 2.  **Start Project 4: AI Patient Interaction Service.** Integrate a basic LLM to replace scripted responses. This is a major milestone.
 3.  **Continue Project 7:** Build the main simulation UI in the frontend to interact with the engine and AI.
 
 **Step 3: Add Assessment and Collaboration (Months 4-5)**
+
 1.  **Start Project 5: Assessment & Analytics Service.** Hook into the Scenario Engine to start logging actions and calculating scores.
 2.  **Start Project 6: Real-time Collaboration Service.** Implement WebSockets to show live data on the frontend.
 3.  **Continue Project 7:** Build the supervisor dashboard and the assessment results page.
 
 **Step 4: Enhance Realism and Polish (Months 6+)**
+
 1.  **Start Project 8: 3D Patient Visualization Module.** With the core logic stable, focus on the visual layer.
 2.  **Refine All Projects:** Focus on performance optimization, adding more complex scenarios, improving the AI's emotional intelligence, and comprehensive testing.
 
 # Git init
-
 
 Of course. Adding source control is the most critical first step before writing any code. It allows you to track changes, revert mistakes, and collaborate with others. We will use Git, which is integrated directly into Visual Studio Code.
 
@@ -279,13 +293,16 @@ Here is a step-by-step guide to initialize a Git repository for your `virtual-pa
 ### **Step 1: Prerequisites - Install Git**
 
 If you don't have Git installed, you must install it first.
-*   **Download Git:** [https://git-scm.com/downloads](https://git-scm.com/downloads)
-*   Follow the installation instructions for your operating system (Windows, macOS, or Linux). The default settings are usually fine.
+
+- **Download Git:** [https://git-scm.com/downloads](https://git-scm.com/downloads)
+- Follow the installation instructions for your operating system (Windows, macOS, or Linux). The default settings are usually fine.
 
 To verify the installation, open a terminal (or VS Code's integrated terminal) and type:
+
 ```bash
 git --version
 ```
+
 You should see the Git version number printed.
 
 ---
@@ -410,15 +427,12 @@ Now we will tell Git to track all the files (except those in `.gitignore`) and s
 
 2.  **Stage the Changes:** You can stage all changes by clicking the **"+"** icon next to "Changes" at the top of the Source Control panel. This moves all the files to the "Staged Changes" area.
 
-    
-
 3.  **Commit the Staged Changes:**
-    *   Type a clear and concise commit message in the "Message" box. A good first message is `Initial commit: Project 1 - Core API & User Service`.
-    *   Click the **checkmark icon** (✓) at the top of the Source Control panel to create the commit.
-
-    
+    - Type a clear and concise commit message in the "Message" box. A good first message is `Initial commit: Project 1 - Core API & User Service`.
+    - Click the **checkmark icon** (✓) at the top of the Source Control panel to create the commit.
 
     Alternatively, you can do this from the terminal:
+
     ```bash
     # Stage all files
     git add .
@@ -436,11 +450,13 @@ Storing your code on a remote service like GitHub, GitLab, or Bitbucket provides
 1.  **Create a Remote Repository:** Go to your preferred Git hosting service (e.g., [GitHub](https://github.com)) and create a new, empty repository. Do **not** initialize it with a README, license, or `.gitignore`, as we already have those locally. Copy the repository's URL (e.g., `https://github.com/your-username/virtual-patient-api.git`).
 
 2.  **Add the Remote Origin:** In the VS Code terminal, run the following command, replacing the URL with your own:
+
     ```bash
     git remote add origin https://github.com/your-username/virtual-patient-api.git
     ```
 
 3.  **Push to the Remote:** Push your local commits to the remote repository. The `-u` flag sets your local branch to track the remote `main` branch.
+
     ```bash
     # First, rename your branch to 'main' if it's 'master'
     git branch -M main
@@ -456,14 +472,14 @@ You may be prompted to enter your username and password (or a Personal Access To
 ### **Verification**
 
 Your project is now fully under source control!
-*   In VS Code, the "Source Control" panel should now show "No Changes".
-*   You can check your commit history by opening the terminal and typing `git log --oneline`.
-*   You can visit your repository on GitHub/GitLab to see your code there.
+
+- In VS Code, the "Source Control" panel should now show "No Changes".
+- You can check your commit history by opening the terminal and typing `git log --oneline`.
+- You can visit your repository on GitHub/GitLab to see your code there.
 
 You are now ready to proceed with confidence. Every change you make from this point on can be tracked, committed, and pushed to your remote repository. We can now safely move on to the next development phase.
 
 # Project 1: Core API & User Service
-
 
 Of course. This is an extensive undertaking, so we will proceed step-by-step, starting with the foundational project. We will build **Project 1: Core API & User Service** from the ground up.
 
@@ -479,12 +495,12 @@ Create a secure, scalable, and well-documented REST API using NestJS. This servi
 
 ### **Technology Stack**
 
-*   **Framework:** Nest.js
-*   **Language:** TypeScript
-*   **Database:** PostgreSQL
-*   **ORM:** Prisma
-*   **Authentication:** JWT (JSON Web Tokens)
-*   **Validation:** `class-validator` and `class-transformer`
+- **Framework:** Nest.js
+- **Language:** TypeScript
+- **Database:** PostgreSQL
+- **ORM:** Prisma
+- **Authentication:** JWT (JSON Web Tokens)
+- **Validation:** `class-validator` and `class-transformer`
 
 ---
 
@@ -516,6 +532,7 @@ npm install --save-dev @types/bcrypt @types/passport-jwt @types/passport-local p
     ```bash
     npx prisma init
     ```
+
     This creates a `prisma` directory and a `.env` file.
 
 2.  **Configure Environment Variables:**
@@ -593,9 +610,10 @@ nest generate service prisma
 ```
 
 **`src/prisma/prisma.service.ts`**
+
 ```typescript
-import { Injectable, OnModuleInit } from '@nestjs/common';
-import { PrismaClient } from '@prisma/client';
+import { Injectable, OnModuleInit } from "@nestjs/common";
+import { PrismaClient } from "@prisma/client";
 
 @Injectable()
 export class PrismaService extends PrismaClient implements OnModuleInit {
@@ -616,16 +634,17 @@ nest generate controller auth
 ```
 
 **`src/auth/auth.module.ts`**
+
 ```typescript
-import { Module } from '@nestjs/common';
-import { AuthService } from './auth.service';
-import { AuthController } from './auth.controller';
-import { PrismaService } from '../prisma/prisma.service';
-import { JwtModule } from '@nestjs/jwt';
-import { PassportModule } from '@nestjs/passport';
-import { ConfigModule, ConfigService } from '@nestjs/config';
-import { LocalStrategy } from './strategies/local.strategy';
-import { JwtStrategy } from './strategies/jwt.strategy';
+import { Module } from "@nestjs/common";
+import { AuthService } from "./auth.service";
+import { AuthController } from "./auth.controller";
+import { PrismaService } from "../prisma/prisma.service";
+import { JwtModule } from "@nestjs/jwt";
+import { PassportModule } from "@nestjs/passport";
+import { ConfigModule, ConfigService } from "@nestjs/config";
+import { LocalStrategy } from "./strategies/local.strategy";
+import { JwtStrategy } from "./strategies/jwt.strategy";
 
 @Module({
   imports: [
@@ -633,8 +652,8 @@ import { JwtStrategy } from './strategies/jwt.strategy';
     JwtModule.registerAsync({
       imports: [ConfigModule],
       useFactory: async (configService: ConfigService) => ({
-        secret: configService.get<string>('JWT_SECRET'),
-        signOptions: { expiresIn: '1d' },
+        secret: configService.get<string>("JWT_SECRET"),
+        signOptions: { expiresIn: "1d" },
       }),
       inject: [ConfigService],
     }),
@@ -646,8 +665,9 @@ export class AuthModule {}
 ```
 
 **`src/auth/dto/register.dto.ts`**
+
 ```typescript
-import { IsEmail, IsString, MinLength, IsOptional } from 'class-validator';
+import { IsEmail, IsString, MinLength, IsOptional } from "class-validator";
 
 export class RegisterDto {
   @IsEmail()
@@ -670,12 +690,17 @@ export class RegisterDto {
 ```
 
 **`src/auth/auth.service.ts`**
+
 ```typescript
-import { Injectable, UnauthorizedException, ConflictException } from '@nestjs/common';
-import { JwtService } from '@nestjs/jwt';
-import { PrismaService } from '../prisma/prisma.service';
-import * as bcrypt from 'bcrypt';
-import { RegisterDto } from './dto/register.dto';
+import {
+  Injectable,
+  UnauthorizedException,
+  ConflictException,
+} from "@nestjs/common";
+import { JwtService } from "@nestjs/jwt";
+import { PrismaService } from "../prisma/prisma.service";
+import * as bcrypt from "bcrypt";
+import { RegisterDto } from "./dto/register.dto";
 
 @Injectable()
 export class AuthService {
@@ -712,16 +737,26 @@ export class AuthService {
   }
 
   async register(registerDto: RegisterDto) {
-    const { email, password, firstName, lastName, roleName = 'student' } = registerDto;
+    const {
+      email,
+      password,
+      firstName,
+      lastName,
+      roleName = "student",
+    } = registerDto;
 
-    const existingUser = await this.prisma.user.findUnique({ where: { email } });
+    const existingUser = await this.prisma.user.findUnique({
+      where: { email },
+    });
     if (existingUser) {
-      throw new ConflictException('Email already in use');
+      throw new ConflictException("Email already in use");
     }
 
-    const role = await this.prisma.role.findUnique({ where: { name: roleName } });
+    const role = await this.prisma.role.findUnique({
+      where: { name: roleName },
+    });
     if (!role) {
-        throw new ConflictException(`Role '${roleName}' not found`);
+      throw new ConflictException(`Role '${roleName}' not found`);
     }
 
     const hashedPassword = await bcrypt.hash(password, 10);
@@ -736,7 +771,7 @@ export class AuthService {
       },
       include: { role: true },
     });
-    
+
     // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const { password: _, ...result } = user;
     return result;
@@ -748,16 +783,17 @@ export class AuthService {
 Create a `strategies` folder inside `src/auth`.
 
 **`src/auth/strategies/local.strategy.ts`**
+
 ```typescript
-import { Strategy } from 'passport-local';
-import { PassportStrategy } from '@nestjs/passport';
-import { Injectable, UnauthorizedException } from '@nestjs/common';
-import { AuthService } from '../auth.service';
+import { Strategy } from "passport-local";
+import { PassportStrategy } from "@nestjs/passport";
+import { Injectable, UnauthorizedException } from "@nestjs/common";
+import { AuthService } from "../auth.service";
 
 @Injectable()
 export class LocalStrategy extends PassportStrategy(Strategy) {
   constructor(private authService: AuthService) {
-    super({ usernameField: 'email' }); // Use email as username
+    super({ usernameField: "email" }); // Use email as username
   }
 
   async validate(email: string, password: string): Promise<any> {
@@ -771,11 +807,12 @@ export class LocalStrategy extends PassportStrategy(Strategy) {
 ```
 
 **`src/auth/strategies/jwt.strategy.ts`**
+
 ```typescript
-import { ExtractJwt, Strategy } from 'passport-jwt';
-import { PassportStrategy } from '@nestjs/passport';
-import { Injectable } from '@nestjs/common';
-import { ConfigService } from '@nestjs/config';
+import { ExtractJwt, Strategy } from "passport-jwt";
+import { PassportStrategy } from "@nestjs/passport";
+import { Injectable } from "@nestjs/common";
+import { ConfigService } from "@nestjs/config";
 
 @Injectable()
 export class JwtStrategy extends PassportStrategy(Strategy) {
@@ -783,7 +820,7 @@ export class JwtStrategy extends PassportStrategy(Strategy) {
     super({
       jwtFromRequest: ExtractJwt.fromAuthHeaderAsBearerToken(),
       ignoreExpiration: false,
-      secretOrKey: configService.get<string>('JWT_SECRET'),
+      secretOrKey: configService.get<string>("JWT_SECRET"),
     });
   }
 
@@ -797,25 +834,27 @@ export class JwtStrategy extends PassportStrategy(Strategy) {
 Create a `guards` folder inside `src/auth`.
 
 **`src/auth/guards/jwt-auth.guard.ts`**
+
 ```typescript
-import { Injectable } from '@nestjs/common';
-import { AuthGuard } from '@nestjs/passport';
+import { Injectable } from "@nestjs/common";
+import { AuthGuard } from "@nestjs/passport";
 
 @Injectable()
-export class JwtAuthGuard extends AuthGuard('jwt') {}
+export class JwtAuthGuard extends AuthGuard("jwt") {}
 ```
 
 **`src/auth/guards/roles.guard.ts`**
+
 ```typescript
-import { Injectable, CanActivate, ExecutionContext } from '@nestjs/common';
-import { Reflector } from '@nestjs/core';
+import { Injectable, CanActivate, ExecutionContext } from "@nestjs/common";
+import { Reflector } from "@nestjs/core";
 
 @Injectable()
 export class RolesGuard implements CanActivate {
   constructor(private reflector: Reflector) {}
 
   canActivate(context: ExecutionContext): boolean {
-    const requiredRoles = this.reflector.getAllAndOverride<string[]>('roles', [
+    const requiredRoles = this.reflector.getAllAndOverride<string[]>("roles", [
       context.getHandler(),
       context.getClass(),
     ]);
@@ -832,49 +871,58 @@ export class RolesGuard implements CanActivate {
 Create this in the `src/auth` directory.
 
 **`src/auth/roles.decorator.ts`**
-```typescript
-import { SetMetadata } from '@nestjs/common';
 
-export const ROLES_KEY = 'roles';
+```typescript
+import { SetMetadata } from "@nestjs/common";
+
+export const ROLES_KEY = "roles";
 export const Roles = (...roles: string[]) => SetMetadata(ROLES_KEY, roles);
 ```
 
 **`src/auth/auth.controller.ts`**
-```typescript
-import { Controller, Post, Body, UseGuards, Request, Get } from '@nestjs/common';
-import { AuthService } from './auth.service';
-import { RegisterDto } from './dto/register.dto';
-import { LocalAuthGuard } from './guards/local-auth.guard';
-import { JwtAuthGuard } from './guards/jwt-auth.guard';
-import { Roles } from './roles.decorator';
-import { RolesGuard } from './guards/roles.guard';
 
-@Controller('auth')
+```typescript
+import {
+  Controller,
+  Post,
+  Body,
+  UseGuards,
+  Request,
+  Get,
+} from "@nestjs/common";
+import { AuthService } from "./auth.service";
+import { RegisterDto } from "./dto/register.dto";
+import { LocalAuthGuard } from "./guards/local-auth.guard";
+import { JwtAuthGuard } from "./guards/jwt-auth.guard";
+import { Roles } from "./roles.decorator";
+import { RolesGuard } from "./guards/roles.guard";
+
+@Controller("auth")
 export class AuthController {
   constructor(private readonly authService: AuthService) {}
 
-  @Post('register')
+  @Post("register")
   async register(@Body() registerDto: RegisterDto) {
     return this.authService.register(registerDto);
   }
 
   @UseGuards(LocalAuthGuard)
-  @Post('login')
+  @Post("login")
   async login(@Request() req) {
     return this.authService.login(req.user);
   }
 
   @UseGuards(JwtAuthGuard)
-  @Get('profile')
+  @Get("profile")
   getProfile(@Request() req) {
     return req.user;
   }
 
   @UseGuards(JwtAuthGuard, RolesGuard)
-  @Roles('admin', 'supervisor')
-  @Get('admin/dashboard')
+  @Roles("admin", "supervisor")
+  @Get("admin/dashboard")
   getAdminDashboard() {
-    return { message: 'Welcome to the admin dashboard!' };
+    return { message: "Welcome to the admin dashboard!" };
   }
 }
 ```
@@ -887,17 +935,15 @@ export class AuthController {
     Make sure `ConfigModule` is available globally and that our `AuthModule` is imported.
 
     **`src/app.module.ts`**
+
     ```typescript
-    import { Module } from '@nestjs/common';
-    import { ConfigModule } from '@nestjs/config';
-    import { AuthModule } from './auth/auth.module';
-    import { PrismaService } from './prisma/prisma.service';
+    import { Module } from "@nestjs/common";
+    import { ConfigModule } from "@nestjs/config";
+    import { AuthModule } from "./auth/auth.module";
+    import { PrismaService } from "./prisma/prisma.service";
 
     @Module({
-      imports: [
-        ConfigModule.forRoot({ isGlobal: true }),
-        AuthModule,
-      ],
+      imports: [ConfigModule.forRoot({ isGlobal: true }), AuthModule],
       providers: [PrismaService],
     })
     export class AppModule {}
@@ -907,40 +953,41 @@ export class AuthController {
     We need to create default roles in our database.
 
     **`prisma/seed.ts`**
+
     ```typescript
-    import { PrismaClient } from '@prisma/client';
+    import { PrismaClient } from "@prisma/client";
 
     const prisma = new PrismaClient();
 
     async function main() {
-      console.log('Start seeding...');
+      console.log("Start seeding...");
 
       const studentRole = await prisma.role.upsert({
-        where: { name: 'student' },
+        where: { name: "student" },
         update: {},
         create: {
-          name: 'student',
+          name: "student",
         },
       });
 
       const supervisorRole = await prisma.role.upsert({
-        where: { name: 'supervisor' },
+        where: { name: "supervisor" },
         update: {},
         create: {
-          name: 'supervisor',
+          name: "supervisor",
         },
       });
 
       const adminRole = await prisma.role.upsert({
-        where: { name: 'admin' },
+        where: { name: "admin" },
         update: {},
         create: {
-          name: 'admin',
+          name: "admin",
         },
       });
 
       console.log({ studentRole, supervisorRole, adminRole });
-      console.log('Seeding finished.');
+      console.log("Seeding finished.");
     }
 
     main()
@@ -954,12 +1001,14 @@ export class AuthController {
     ```
 
 3.  **Add Seed Script to `package.json`:**
+
     ```json
     "scripts": {
       // ... other scripts
       "seed": "ts-node prisma/seed.ts"
     },
     ```
+
     You may need to install `ts-node` as a dev dependency: `npm install --save-dev ts-node`.
 
 4.  **Run the Seed Script:**
@@ -972,14 +1021,17 @@ export class AuthController {
 ### **Step 5: Running and Testing the API**
 
 1.  **Start the Server:**
+
     ```bash
     npm run start:dev
     ```
+
     The API should now be running on `http://localhost:3000`.
 
 2.  **Test with a Tool like Postman or `curl`:**
 
     **A. Register a new user:**
+
     ```bash
     curl -X POST http://localhost:3000/auth/register \
     -H "Content-Type: application/json" \
@@ -993,6 +1045,7 @@ export class AuthController {
     ```
 
     **B. Login to get a JWT:**
+
     ```bash
     curl -X POST http://localhost:3000/auth/login \
     -H "Content-Type: application/json" \
@@ -1001,20 +1054,24 @@ export class AuthController {
       "password": "password123"
     }'
     ```
+
     Copy the `access_token` from the response.
 
     **C. Access a protected route:**
     Replace `YOUR_JWT_TOKEN` with the token you copied.
+
     ```bash
     curl -X GET http://localhost:3000/auth/profile \
     -H "Authorization: Bearer YOUR_JWT_TOKEN"
     ```
 
     **D. Test a role-protected route (should fail for 'student' role):**
+
     ```bash
     curl -X GET http://localhost:3000/auth/admin/dashboard \
     -H "Authorization: Bearer YOUR_JWT_TOKEN"
     ```
+
     This should return a `403 Forbidden` error.
 
 ---
@@ -1026,6 +1083,7 @@ Even before building the frontend (Project 7), you can test this API. A frontend
 For a more integrated mock experience, a frontend developer could use a library like **MSW (Mock Service Worker)**. They would build their UI components and configure MSW to intercept API calls. Initially, MSW would return **mocked JSON responses**. Once the real API is ready, they can simply turn off the mock and point their app to the live `http://localhost:3000` backend without changing any of their frontend code.
 
 **Example Mocked Response for `/auth/profile`:**
+
 ```json
 {
   "userId": 1,
@@ -1039,19 +1097,32 @@ This completes **Project 1**. We now have a secure, documented, and tested backe
 ### **Next Steps**
 
 With Project 1 complete, we can now proceed in parallel or sequentially:
+
 1.  **Start Project 2 (Medical Knowledge Base Service):** Add new modules and Prisma models for drugs, procedures, etc., to this existing codebase.
 2.  **Start Project 7 (Web Client Shell):** A frontend developer can begin building the login/registration pages and the main dashboard, using our live API or MSW mocks.
 
 # ---
+
 # ---
+
 # ---
+
 # ---
+
 # ---
+
 # ---
+
 # ---
+
 # ---
+
 # ---
+
 # ---
+
 # ---
+
 # ---
+
 # ---

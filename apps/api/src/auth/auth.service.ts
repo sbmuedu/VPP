@@ -8,7 +8,7 @@ import { RegisterDto } from './dto/register.dto';
 export class AuthService {
   constructor(
     private prisma: PrismaService,
-    private jwtService: JwtService,
+    private jwtService: JwtService
   ) {}
 
   async validateUser(email: string, password: string): Promise<any> {
@@ -41,14 +41,18 @@ export class AuthService {
   async register(registerDto: RegisterDto) {
     const { email, password, firstName, lastName, roleName = 'student' } = registerDto;
 
-    const existingUser = await this.prisma.user.findUnique({ where: { email } });
+    const existingUser = await this.prisma.user.findUnique({
+      where: { email },
+    });
     if (existingUser) {
       throw new ConflictException('Email already in use');
     }
 
-    const role = await this.prisma.role.findUnique({ where: { name: roleName } });
+    const role = await this.prisma.role.findUnique({
+      where: { name: roleName },
+    });
     if (!role) {
-        throw new ConflictException(`Role '${roleName}' not found`);
+      throw new ConflictException(`Role '${roleName}' not found`);
     }
 
     const hashedPassword = await bcrypt.hash(password, 10);
@@ -63,7 +67,7 @@ export class AuthService {
       },
       include: { role: true },
     });
-    
+
     // eslint-disable-next-line @typescript-eslint/no-unused-vars
     const { password: _, ...result } = user;
     return result;
